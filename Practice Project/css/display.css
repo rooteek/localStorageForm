@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#ViewDetails {
+    padding-inline: 30px;
+    text-align: center;
+}
+#ViewDetails h2{
+    color: #0298cf; 
+}
+
+#backBtn button {
+    padding: 5px 14px;
+    border-radius: 9px;
+    border: 1px solid #ccc;
+    margin: 20px 0 9px 30px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    min-width: 900px;
+    border-collapse: collapse;
+}
+
+thead th:first-child {
+    border-top-left-radius: 20px;
+}
+
+thead th:last-child {
+    border-top-right-radius: 20px;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    background-color: #d7e6f5;
+    color: #52565a;
+    font-size: 15px;
+}
+
+th,
+td {
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 20px;
+    word-break: break-all;
+    text-align: center;
+}
+
+
+tr:hover td,
+tr:hover input {
+    color: #0298cf;
+    background-color: #ebf1f8;
+}
+
+table tbody tr td input {
+    padding: 6px 15px;
+    border: 1px solid #f2f2f2;
+    border-radius: 6px;
+    color: #0298cf;
+    outline: none;
+    font-size: 16px;
+
+}
+
+th:nth-last-child(-n+2) {
+    width: 100px;
+}
+
+.operationBtn {
+    margin: 0;
+    width: 1px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#deleteBtn,
+#updateData {
+    width: 70px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
+    color: #f2f2f2;
+    font-weight: 600;
+}
+
+#deleteBtn {
+    margin-left: 15px;
+    background-color: #f80000;
+}
+
+#updateData {
+    background-color: #FFCA2C;
+    color: #1f1f1f;
+}
+
+#updateData:hover {
+    background-color: #e6af0b;
+}
+
+#deleteBtn:hover {
+    background-color: #b4091a;
+}
+
+#deleteBtn:active {
+    font-size: 13px;
+}
+
+/* =========================== */
+.updateBtn {
+    background-color: #FFC107 !important;
+    color: #000000 !important;
+}
+
+.saveBtn {
+    background-color: #0069D9 !important;
+    color: #f2f2f2 !important;
+}

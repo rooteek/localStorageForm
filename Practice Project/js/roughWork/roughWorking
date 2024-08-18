@@ -1,0 +1,103 @@
+// selecter.addEventListener("change", () => {
+//     let tbody = document.createElement("tbody");
+//     let tr = document.createElement("tr");
+//     form.innerHTML = ``
+//     let trow = tbody.rows.length;
+//     if (selecter.value > trow) {
+//         console.log(selecter.value - trow)
+//     }
+//     for (let i = 1; i <= selecter.value; i++) {
+// tbody.innerHTML += `<tr id="dtr">
+//                         <td>${i}</td>
+//                         <td><input type="text" id="name" name="stdName" placeholder="Enter name" maxlength="30"></td>
+//                         <td>
+//                             <select id="cource" name="selectCource">
+//                                 <option value="">SELECT THE COURCE</option>
+//                                 <option value="bca">BCA</option>
+//                                 <option value="bba">BBA</option>
+//                                 <option value="bscit">BSCIT</option>
+//                                 <option value="b.com">B.COM</option>
+//                                 <option value="mca">MCA</option>
+//                                 <option value="mba">MBA</option>
+//                                 <option value="mscit">MSCIT</option>
+//                             </select>
+//                         </td>
+//                         <td>
+//                             <select name="selectYear" id="year" >
+//                                 <option value="">SELECT SEMESTER</option>
+//                                 <option value="first">FIRST</option>
+//                                 <option value="second">SECOND</option>
+//                                 <option value="third">THIRD</option>
+//                                 <option value="forth">FORTH</option>
+//                                 <option value="fifth">FIFTH</option>
+//                                 <option value="sixth">SIXTH</option>
+//                                 <option value="seventh">SEVENTH</option>
+//                                 <option value="eighth">EIGHTH</option>
+//                             </select>
+//                         </td>
+//                        <td><input type="text" id="college" placeholder="Enter name" name="collegeName" maxlength="30"></td>
+//                         <td><button id="deleteBtn" onclick="deleteRow(this)">Delete</button></td>
+//                         <!-- <td><button>Update</button></td> -->
+//                     </tr>`
+//     }
+//     saveButnDiv.innerHTML = `<button id="savebtn">Save</button> <button id="cleanBtn">Save in Aray</button> <button id="showBtn">Show</button>`;
+
+//     form.appendChild(tbody);
+//     tbody.appendChild(tr);
+//     form.appendChild(saveButnDiv);
+
+//     // This is save button to save data
+//     let saveBtn = document.getElementById("savebtn");
+//     saveBtn.addEventListener(("click"), saveUserData);
+
+//     // This is show Button to show the details of the students
+//     document.getElementById("showBtn").addEventListener("click", () => {
+//         window.open("showData.html", "_blank");
+//     })
+//     checkInputForm();
+// });
+
+
+// function checkEmpty(name, cource, year, college) {
+//     let emptyName = document.getElementsByName(name);
+//     let emptyCource = document.getElementsByName(cource);
+//     let emptyYear = document.getElementsByName(year);
+//     let emptyCollege = document.getElementsByName(college);
+//     if (emptyName.value.trim() == "") {
+//         emptyName
+//     }
+//     if (name[i].value.trim() == "") {
+//         name[i].classList.add('warnningClass');
+//     }
+//     else if (name[i].value.trim() !== "") {
+//         name[i].classList.remove('warnningClass');
+//     }
+
+//     if (cource[i].value.trim() == "") {
+//         cource[i].classList.add('warnningClass');
+//     }
+//     else if (cource[i].value.trim() !== "") {
+//         cource[i].classList.remove('warnningClass');
+//     }
+
+//     if (year[i].value.trim() == "") {
+//         year[i].classList.add('warnningClass');
+//     }
+//     else if (year[i].value.trim() !== "") {
+//         year[i].classList.remove('warnningClass');
+//     }
+
+//     if (college[i].value.trim() == "") {
+//         college[i].classList.add('warnningClass');
+//     }
+//     else if (college[i].value.trim() !== "") {
+//         college[i].classList.remove('warnningClass');
+//     }
+
+
+// }
+
+// function checkEmpty(getName){
+//     let name=document.getElementsByName(getName);
+
+// }
